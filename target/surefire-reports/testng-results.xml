@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T11:12:04 IST" name="Surefire suite" finished-at="2023-08-02T11:12:34 IST" duration-ms="29855">
+    <groups>
+    </groups>
+    <test started-at="2023-08-02T11:12:04 IST" name="Surefire test" finished-at="2023-08-02T11:12:34 IST" duration-ms="29855">
+      <class name="tests.CustomerLoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.CustomerLoginTest@197d671]" started-at="2023-08-02T11:12:04 IST" name="launchApp" finished-at="2023-08-02T11:12:16 IST" duration-ms="12276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="LoginFeature()[pri:0, instance:tests.CustomerLoginTest@197d671]" started-at="2023-08-02T11:12:16 IST" name="LoginFeature" finished-at="2023-08-02T11:12:25 IST" duration-ms="8125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFeature -->
+        <test-method signature="searchCustomer(java.lang.String,java.lang.String)[pri:1, instance:tests.CustomerLoginTest@197d671]" started-at="2023-08-02T11:12:25 IST" name="searchCustomer" data-provider="newSearch" finished-at="2023-08-02T11:12:34 IST" duration-ms="9314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:tests.CustomerLoginTest@197d671]" started-at="2023-08-02T11:12:34 IST" name="closeApp" finished-at="2023-08-02T11:12:34 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- tests.CustomerLoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
